@@ -1,24 +1,7 @@
-# README
+# This repo is a coding challenge asked for in a job interview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## The challenge consists in figuring out if the brackets are balanced
 
-Things you may want to cover:
+## Live demo
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Balanced brackets](https://balanced-brackets.herokuapp.com/)
