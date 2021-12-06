@@ -1,0 +1,11 @@
+<div class="container-fluid">
+<h1>Balanced or unbalanced?</h1>
+<p>Please enter the text to analyze</p>
+
+
+
+<%= form_tag({:controller=>"test", :action=>"calculate"}, method: :get) do %>
+  <%= text_field_tag :text_to_process,'' ,class:"form-control w-50" %>
+  <%= submit_tag 'Calculate if balanced', class:"btn btn-light mt-3" %>
+<% end %>
+</div>
