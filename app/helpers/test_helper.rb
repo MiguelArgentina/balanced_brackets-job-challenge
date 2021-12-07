@@ -42,7 +42,7 @@ module TestHelper
     opening_brackets = [ '(' ]
     closing_brackets = [ ')' ]
     aux_stack = Stack.new
-    string.split('').select do |character|
+    string_copy.split('').select do |character|
       aux_stack.push(character) if opening_brackets.include?(character)
       return false if (closing_brackets.include?(character)) && (aux_stack.pop != opening_brackets[closing_brackets.index(character)])
     end
